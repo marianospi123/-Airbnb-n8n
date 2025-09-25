@@ -6,9 +6,8 @@ EXPOSE 5678
 
 # --- Activar autenticación básica para seguridad ---
 ENV N8N_BASIC_AUTH_ACTIVE=true
-ENV N8N_BASIC_AUTH_USER=mariano123            # Cambia por tu usuario
-ENV N8N_BASIC_AUTH_PASSWORD=mariano167     # Cambia por tu contraseña
-
+ENV N8N_BASIC_AUTH_USER=mariano123           
+ENV N8N_BASIC_AUTH_PASSWORD=mariano167    
 # --- Zona horaria ---
 ENV TZ=America/Caracas
 
