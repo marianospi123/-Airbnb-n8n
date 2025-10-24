@@ -11,5 +11,4 @@ ENV N8N_BASIC_AUTH_PASSWORD=mariano167
 # --- Zona horaria ---
 ENV TZ=America/Caracas
 
-# --- Opcional: variables de entorno para tu workflow ---
-ENV WEBHOOK_AIRBNB_URL=http://tu_webhook_publico_de_n8n
+
