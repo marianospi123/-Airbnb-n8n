@@ -10,5 +10,5 @@ ENV N8N_BASIC_AUTH_USER=mariano123
 ENV N8N_BASIC_AUTH_PASSWORD=mariano167    
 # --- Zona horaria ---
 ENV TZ=America/Caracas
-
-
+# --- Clave de encriptación para credenciales ---
+ENV N8N_ENCRYPTION_KEY=mi_nueva_clave_segura_123
